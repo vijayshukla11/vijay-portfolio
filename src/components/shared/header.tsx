@@ -5,6 +5,7 @@ import { Linkedin, PlayCircle, Github } from "lucide-react";
 const Header = () => {
     const navItems = [
         { name: "About", href: "#about" },
+        { name: "Why Me", href: "#why" },
         { name: "Skills", href: "#skills" },
         { name: "Projects", href: "#projects" },
         { name: "Experience", href: "#experience" },

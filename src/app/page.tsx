@@ -7,9 +7,11 @@ import ProjectsSection from "@/components/home/projects-section";
 import ResumeSection from "@/components/home/resume-section";
 import SkillsSection from "@/components/home/skills-section";
 import { motion } from 'framer-motion';
+import WhyWorkWithMeSection from "@/components/home/why-work-with-me-section";
 
 const sections = [
   { id: 'about', component: <AboutSection />, title: "About Me" },
+  { id: 'why', component: <WhyWorkWithMeSection />, title: "Why Work With Me?" },
   { id: 'skills', component: <SkillsSection />, title: "Analytics & Tools" },
   { id: 'projects', component: <ProjectsSection />, title: "Projects & Case Studies" },
   { id: 'experience', component: <ExperienceSection />, title: "Work Experience" },
