@@ -270,3 +270,36 @@ export const howIWorkSteps = [
         description: "Once the dashboards are finalized, I deploy them for your team's use. I provide ongoing support to ensure the solution remains valuable and adapts to your future needs."
     }
 ];
+
+export const articles = [
+  {
+    id: "article-1",
+    category: "Data Architecture",
+    date: "JAN 15, 2024",
+    readTime: "8 MIN READ",
+    title: "Building a Scalable Data Warehouse for Analytics",
+    description: "Learn how to design and deploy a modern data warehouse using cloud technologies for scalable, production-ready analytics applications.",
+    imageUrl: "article-1",
+    articleUrl: "#",
+  },
+  {
+    id: "article-2",
+    category: "Analytics",
+    date: "JAN 10, 2024",
+    readTime: "12 MIN READ",
+    title: "Advanced Dashboarding with Power BI and DAX",
+    description: "A comprehensive guide to building dynamic and insightful dashboards using Power BI, focusing on advanced DAX formulas and data modeling techniques.",
+    imageUrl: "article-2",
+    articleUrl: "#",
+  },
+  {
+    id: "article-3",
+    category: "Operations",
+    date: "JAN 5, 2024",
+    readTime: "6 MIN READ",
+    title: "Automating KPI Reporting with Python and SQL",
+    description: "Set up automated data extraction, transformation, and reporting pipelines using Python scripts and SQL queries for seamless operations monitoring.",
+    imageUrl: "article-3",
+    articleUrl: "#",
+  },
+];

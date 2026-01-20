@@ -10,6 +10,7 @@ import { motion } from 'framer-motion';
 import WhyWorkWithMeSection from "@/components/home/why-work-with-me-section";
 import StrengthsSection from "@/components/home/strengths-section";
 import HowIWorkSection from "@/components/home/how-i-work-section";
+import ArticlesSection from "@/components/home/articles-section";
 
 const sections = [
   { id: 'about', component: <AboutSection />, title: "About Me" },
@@ -18,6 +19,7 @@ const sections = [
   { id: 'how-i-work', component: <HowIWorkSection />, title: "How I Work" },
   { id: 'skills', component: <SkillsSection />, title: "Core Capabilities" },
   { id: 'projects', component: <ProjectsSection />, title: "Projects & Case Studies" },
+  { id: 'articles', component: <ArticlesSection />, title: "Insights & Articles" },
   { id: 'experience', component: <ExperienceSection />, title: "Work Experience" },
   { id: 'resume', component: <ResumeSection />, title: "Resume Highlights" },
   { id: 'contact', component: <ContactSection />, title: "Get In Touch" },
