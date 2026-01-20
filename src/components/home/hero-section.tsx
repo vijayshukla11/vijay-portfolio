@@ -10,7 +10,7 @@ const HeroSection = () => {
     return (
         <section className="text-center py-20 md:py-32">
             <motion.h1 
-                className="text-4xl md:text-6xl font-bold tracking-tighter mb-4 bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400"
+                className="text-4xl md:text-6xl font-bold tracking-tighter mb-4 bg-clip-text text-transparent bg-gradient-to-r from-primary to-green-400"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
@@ -18,7 +18,7 @@ const HeroSection = () => {
                 Vijay Shukla
             </motion.h1>
             <motion.h2 
-                className="text-xl md:text-2xl font-semibold text-primary/80 mb-6"
+                className="text-xl md:text-2xl font-semibold text-primary/90 mb-6"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.2 }}
