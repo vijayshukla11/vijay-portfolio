@@ -29,7 +29,7 @@ const DashboardPage = () => {
     };
 
     return (
-        <div className="flex min-h-screen bg-background text-foreground section-gradient">
+        <div className="flex min-h-screen bg-background text-foreground">
             <Sidebar />
             <main className="flex-1 p-4 md:p-8 overflow-y-auto">
                 <div className="flex items-center justify-between mb-6">
