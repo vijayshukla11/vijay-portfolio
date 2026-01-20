@@ -1,4 +1,4 @@
-import { AreaChart, BarChart, FileText, Gauge, LayoutDashboard, PieChart, ShoppingCart, SlidersHorizontal } from "lucide-react";
+import { AreaChart, Award, BarChart, Clock, Code, FileText, Gauge, LayoutDashboard, MessageSquare, PieChart, ShoppingCart, SlidersHorizontal, Target, TrendingUp } from "lucide-react";
 
 export const kpiData = [
   { title: "Fill Rate", value: "92.5%", trend: "+1.2%", icon: Gauge },
@@ -148,4 +148,37 @@ export const topOosSkusData = [
     { sku: 'MAGGI 2-MINUTE NOODLES', oosInstances: 85, lostGmv: 1020 },
     { sku: 'COCA-COLA PET 750ML', oosInstances: 72, lostGmv: 2880 },
     { sku: 'LAY\'S CHIPS - BLUE', oosInstances: 65, lostGmv: 1300 },
+];
+
+export const strengths = [
+    {
+        icon: Target,
+        title: "Solve Your Business Problems",
+        description: "Not just code - I understand your business goals and build solutions that drive real results."
+    },
+    {
+        icon: Code,
+        title: "Production-Ready Code",
+        description: "Not just demos - production-ready code that can be deployed directly. Zero bugs guarantee."
+    },
+    {
+        icon: Clock,
+        title: "Fast Delivery & Response",
+        description: "24-48 hours response time. Time-bound delivery with regular milestones and updates."
+    },
+    {
+        icon: Award,
+        title: "15+ Successful Projects",
+        description: "Real clients, real projects, real results. Every project is running successfully in production."
+    },
+    {
+        icon: MessageSquare,
+        title: "Clear Communication",
+        description: "Regular updates, clear explanations, and comfortable communication. Your success is my priority."
+    },
+    {
+        icon: TrendingUp,
+        title: "Scalable Solutions",
+        description: "Small business today, big business tomorrow. Solutions designed to grow with your business."
+    }
 ];
