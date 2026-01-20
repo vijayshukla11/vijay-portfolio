@@ -13,73 +13,37 @@ export const services = [
         icon: LayoutDashboard,
         title: "Dashboards & Reporting",
         tag: "BI & Visualization",
-        description: "Building daily/weekly MIS, KPI trackers, and executive summaries to provide a clear view of business performance."
+        description: "Building insightful MIS, KPI trackers, and executive summaries that provide a clear, at-a-glance view of business performance."
     },
     {
         icon: BarChart,
         title: "Inventory & Ops Analytics",
-        tag: "Analytics",
-        description: "Analyzing stock variance, wastage, and returns to control shrinkage and improve stock accuracy."
+        tag: "Core Analytics",
+        description: "Deep-diving into stock variance, wastage, and returns data to control shrinkage, improve stock accuracy, and optimize inventory flow."
     },
     {
         icon: Gauge,
         title: "Quick Commerce KPI Analysis",
-        tag: "Q-Commerce",
-        description: "Deep-dive analysis into Fill Rate, Cancellation Rate, and SLA performance to drive operational excellence."
+        tag: "Specialization",
+        description: "Specialized analysis of Fill Rate, Cancellation Rate, and SLA performance to identify bottlenecks and drive operational excellence."
     },
     {
         icon: FileText,
         title: "Advanced Excel & Data Modeling",
-        tag: "Data Tools",
-        description: "Using Power Query, Pivot Tables, and advanced formulas to clean, transform, and model complex datasets."
+        tag: "Technical Skills",
+        description: "Leveraging Power Query, Pivot Tables, and advanced formulas to clean, transform, and model complex datasets with efficiency and accuracy."
     },
     {
         icon: Database,
         title: "SQL for Data Extraction",
-        tag: "Data",
-        description: "Writing basic SQL queries with joins and aggregations to extract and manipulate data from databases."
+        tag: "Technical Skills",
+        description: "Writing efficient SQL queries with joins and aggregations to extract and manipulate critical data from relational databases."
     },
     {
         icon: ShoppingCart,
         title: "E-commerce Operations",
-        tag: "E-commerce",
-        description: "Managing product listings, catalog data, and tracking key metrics like OOS and order execution for online channels."
-    },
-    {
-        icon: Presentation,
-        title: "Dashboard Storytelling",
-        tag: "Communication",
-        description: "Translating complex data findings into a clear and compelling narrative for stakeholders."
-    },
-    {
-        icon: Users,
-        title: "Stakeholder Management",
-        tag: "Soft Skills",
-        description: "Communicating insights and collaborating with operations teams to drive data-backed improvements."
-    },
-    {
-        icon: Target,
-        title: "Problem Solving",
-        tag: "Strategy",
-        description: "Identifying root causes for business challenges like stock variance and order cancellations through data analysis."
-    },
-    {
-        icon: CheckCircle2,
-        title: "Data Cleaning & Validation",
-        tag: "Data Quality",
-        description: "Ensuring data accuracy and consistency through validation rules and cleaning processes in Excel and Power Query."
-    },
-    {
-        icon: TrendingUp,
-        title: "Performance Tracking",
-        tag: "Analytics",
-        description: "Setting up and monitoring key performance indicators to track outlet performance and identify areas for improvement."
-    },
-    {
-        icon: Puzzle,
-        title: "End-to-End Analysis",
-        tag: "Process",
-        description: "From data extraction and cleaning to building the final dashboard and presenting insights to leadership."
+        tag: "Domain Knowledge",
+        description: "Managing product listings, catalog data, and tracking key metrics like OOS and order execution for major online channels."
     },
 ];
 
@@ -126,7 +90,7 @@ export const experiences = [
       period: "Current Role",
       achievements: [
         "Managed daily inventory tracking for multiple outlets, ensuring stock accuracy.",
-        "Built daily/weekly MIS dashboards for Stock Value, Variance %, and Consumption trends.",
+        "Built daily and weekly MIS dashboards for Stock Value, Variance %, and Consumption trends.",
         "Identified wastage patterns, leading to corrective actions and reduced dead stock.",
         "Reduced manual reporting time by creating structured templates for reconciliation."
       ],
@@ -147,10 +111,10 @@ export const resumeHighlights = [
     "Expert in Advanced Excel, Power Query, and Pivot Tables for complex data modeling.",
     "Proven ability to design and build insightful MIS dashboards for operational KPIs.",
     "Strong understanding of Quick Commerce metrics like Fill Rate, OOS%, and SLA.",
-    "Experience in identifying root causes for issues like stock variance and order cancellations.",
+    "Adept at root cause analysis for complex operational issues like stock variance and order cancellations.",
     "Skilled in translating raw operational data into actionable business insights.",
-    "Reduces manual effort by automating reporting and creating efficient data templates.",
-    "Collaborates effectively with operations teams to drive data-backed improvements.",
+    "Passionate about efficiency; automates manual reporting tasks using Power Query and structured data templates.",
+    "Excellent stakeholder management skills; partners with operations teams to implement data-driven improvements.",
     "Fast learner, currently expanding skills in Power BI (DAX) and SQL."
 ];
 
@@ -208,33 +172,33 @@ export const topOosSkusData = [
 export const strengths = [
     {
         icon: Target,
-        title: "Solve Your Business Problems",
-        description: "Not just code - I understand your business goals and build solutions that drive real results."
+        title: "Business-Focused Solutions",
+        description: "I don't just build reports; I solve business challenges. My focus is on delivering insights that lead to measurable improvements in your operations."
     },
     {
-        icon: Code,
-        title: "Production-Ready Code",
-        description: "Not just demos - production-ready code that can be deployed directly. Zero bugs guarantee."
+        icon: LayoutDashboard,
+        title: "Actionable Dashboards",
+        description: "You get polished, easy-to-understand dashboards that stakeholders can use immediately to make informed decisions. My work is built for clarity and impact."
     },
     {
         icon: Clock,
-        title: "Fast Delivery & Response",
-        description: "24-48 hours response time. Time-bound delivery with regular milestones and updates."
+        title: "Reliable & Responsive Partner",
+        description: "Expect clear communication, timely delivery, and a professional partnership. I keep you updated at every stage and am always available to discuss progress."
     },
     {
         icon: Award,
-        title: "15+ Successful Projects",
-        description: "Real clients, real projects, real results. Every project is running successfully in production."
+        title: "Proven Track Record",
+        description: "With over 15 projects successfully delivered, I have a history of helping businesses harness their data to improve efficiency and drive growth."
     },
     {
         icon: MessageSquare,
-        title: "Clear Communication",
-        description: "Regular updates, clear explanations, and comfortable communication. Your success is my priority."
+        title: "Insights, Clearly Communicated",
+        description: "I specialize in translating complex data findings into plain English, ensuring everyone from the C-suite to the ops team understands the story."
     },
     {
         icon: TrendingUp,
-        title: "Scalable Solutions",
-        description: "Small business today, big business tomorrow. Solutions designed to grow with your business."
+        title: "Future-Proof Analytics",
+        description: "The solutions I build are designed to grow with your business. I create flexible, scalable models that can adapt to your changing data and operational needs."
     }
 ];
 

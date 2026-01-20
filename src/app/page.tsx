@@ -51,7 +51,7 @@ export default function HomePage() {
           <motion.section 
             key={section.id}
             id={section.id}
-            className="py-16 md:py-24"
+            className="py-16 md:py-20"
             initial="offscreen"
             whileInView="onscreen"
             viewport={{ once: true, amount: 0.1 }}

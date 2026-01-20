@@ -2,10 +2,10 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 
 const stats = [
-    { value: "15+", label: "PROJECTS DELIVERED" },
-    { value: "24-48h", label: "RESPONSE TIME" },
-    { value: "99.9%", label: "UPTIME GUARANTEE" },
-    { value: "100%", label: "SATISFACTION RATE" },
+    { value: "15+", label: "Projects Delivered" },
+    { value: "24-48h", label: "Response Time" },
+    { value: "100%", label: "Client Satisfaction" },
+    { value: "Impact", label: "Data-Driven Decisions" },
 ];
 
 const WhyWorkWithMeSection = () => {
