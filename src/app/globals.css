@@ -4,48 +4,65 @@
 
 @layer base {
   :root {
-    --background: 222 47% 11%;
+    --background: 224 71% 4%;
     --foreground: 210 40% 98%;
-    --card: 222 47% 15%;
+
+    --card: 224 71% 8%;
     --card-foreground: 210 40% 98%;
-    --popover: 222 47% 11%;
+
+    --popover: 224 71% 4%;
     --popover-foreground: 210 40% 98%;
-    --primary: 173 98% 39%;
-    --primary-foreground: 222 47% 11%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 224 71% 4%;
+
     --secondary: 217 33% 17%;
     --secondary-foreground: 210 40% 98%;
+
     --muted: 217 33% 17%;
     --muted-foreground: 215 20% 65%;
+
     --accent: 217 33% 17%;
     --accent-foreground: 210 40% 98%;
+
     --destructive: 0 63% 31%;
     --destructive-foreground: 210 40% 98%;
+
     --border: 217 33% 17%;
     --input: 217 33% 17%;
-    --ring: 173 98% 39%;
+    --ring: 210 40% 98%;
+ 
     --radius: 0.5rem;
   }
-
+ 
   .dark {
-    --background: 222 47% 11%;
+    --background: 224 71% 4%;
     --foreground: 210 40% 98%;
-    --card: 222 47% 15%;
+
+    --card: 224 71% 8%;
     --card-foreground: 210 40% 98%;
-    --popover: 222 47% 11%;
+
+    --popover: 224 71% 4%;
     --popover-foreground: 210 40% 98%;
-    --primary: 173 98% 39%;
-    --primary-foreground: 222 47% 11%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 224 71% 4%;
+
     --secondary: 217 33% 17%;
     --secondary-foreground: 210 40% 98%;
+
     --muted: 217 33% 17%;
     --muted-foreground: 215 20% 65%;
+
     --accent: 217 33% 17%;
     --accent-foreground: 210 40% 98%;
+
     --destructive: 0 63% 31%;
     --destructive-foreground: 210 40% 98%;
+
     --border: 217 33% 17%;
     --input: 217 33% 17%;
-    --ring: 173 98% 39%;
+    --ring: 210 40% 98%;
   }
 }
 
@@ -57,4 +74,27 @@
     @apply bg-background text-foreground;
     scroll-behavior: smooth;
   }
+  .glassmorphic-card {
+    @apply bg-card/60 backdrop-blur-lg border border-border/20;
+  }
+  .section-gradient {
+    background-image: radial-gradient(at 27% 37%, hsla(215, 98%, 61%, 0.1) 0px, transparent 50%), radial-gradient(at 97% 21%, hsla(125, 98%, 72%, 0.1) 0px, transparent 50%), radial-gradient(at 52% 99%, hsla(355, 98%, 71%, 0.1) 0px, transparent 50%), radial-gradient(at 10% 29%, hsla(256, 96%, 68%, 0.1) 0px, transparent 50%), radial-gradient(at 97% 96%, hsla(38, 60%, 74%, 0.1) 0px, transparent 50%), radial-gradient(at 33% 50%, hsla(222, 67%, 73%, 0.1) 0px, transparent 50%), radial-gradient(at 79% 53%, hsla(343, 68%, 79%, 0.1) 0px, transparent 50%);
+  }
+}
+
+/* For Recharts */
+.recharts-responsive-container .recharts-surface {
+  -webkit-mask-image: none;
+}
+.recharts-cartesian-axis-tick-value tspan {
+  @apply fill-muted-foreground;
+}
+.recharts-legend-item-text {
+   @apply text-muted-foreground;
+}
+.recharts-tooltip-wrapper {
+  @apply !border-border !bg-background/80 backdrop-blur-sm rounded-lg;
+}
+.recharts-tooltip-label {
+  @apply !mb-2 !font-bold !text-foreground;
 }
