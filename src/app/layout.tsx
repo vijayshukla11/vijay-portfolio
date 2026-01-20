@@ -10,7 +10,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Vijay Shukla | Data Analyst Portfolio',
+  title: 'Vijay Shukla | Data Analyst',
   description: 'Data Analyst portfolio for Vijay Shukla, specializing in Quick Commerce operations analytics, inventory management, and creating dashboards that drive business decisions.',
   openGraph: {
     title: 'Vijay Shukla | Data Analyst Portfolio',
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     siteName: 'Vijay Shukla Portfolio',
     images: [
       {
-        url: 'https://your-domain.com/og-image.png', // Update with your actual OG image URL
+        url: 'https://your-domain.com/og-image.png',
         width: 1200,
         height: 630,
       },
@@ -31,12 +31,12 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Vijay Shukla | Data Analyst Portfolio',
     description: 'Data-driven professional converting supply chain data into actionable dashboards.',
-    images: ['https://your-domain.com/og-image.png'], // Update with your actual OG image URL
+    images: ['https://your-domain.com/og-image.png'],
   },
 };
 
 export const viewport: Viewport = {
-  themeColor: '#0a192f',
+  themeColor: 'hsl(224 71% 4%)',
 }
 
 export default function RootLayout({

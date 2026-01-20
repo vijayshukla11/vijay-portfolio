@@ -6,24 +6,21 @@ import HeroSection from "@/components/home/hero-section";
 import ProjectsSection from "@/components/home/projects-section";
 import ResumeSection from "@/components/home/resume-section";
 import SkillsSection from "@/components/home/skills-section";
-import { Card } from "@/components/ui/card";
 import { motion } from 'framer-motion';
 
-const MotionCard = motion(Card);
-
 const sections = [
-  { id: 'about', component: <AboutSection /> },
-  { id: 'skills', component: <SkillsSection /> },
-  { id: 'projects', component: <ProjectsSection /> },
-  { id: 'experience', component: <ExperienceSection /> },
-  { id: 'resume', component: <ResumeSection /> },
-  { id: 'contact', component: <ContactSection /> },
+  { id: 'about', component: <AboutSection />, title: "About Me" },
+  { id: 'skills', component: <SkillsSection />, title: "Analytics & Tools" },
+  { id: 'projects', component: <ProjectsSection />, title: "Projects & Case Studies" },
+  { id: 'experience', component: <ExperienceSection />, title: "Work Experience" },
+  { id: 'resume', component: <ResumeSection />, title: "Resume Highlights" },
+  { id: 'contact', component: <ContactSection />, title: "Get In Touch" },
 ];
 
 export default function HomePage() {
-  const cardVariants = {
+  const sectionVariants = {
     offscreen: {
-      y: 100,
+      y: 50,
       opacity: 0,
     },
     onscreen: {
@@ -31,35 +28,35 @@ export default function HomePage() {
       opacity: 1,
       transition: {
         type: "spring",
-        bounce: 0.4,
+        bounce: 0.2,
         duration: 0.8
       }
     }
   };
 
   return (
-    <div className="flex flex-col min-h-screen bg-background text-foreground section-gradient">
-      <main className="flex-1 container mx-auto px-4 md:px-8">
+    <div className="flex flex-col min-h-screen bg-background text-foreground">
+      <main className="flex-1 container mx-auto px-4 md:px-6">
         <HeroSection />
 
-        {sections.map((section, index) => (
-          <MotionCard 
+        {sections.map((section) => (
+          <motion.section 
             key={section.id}
             id={section.id}
-            className="my-16 md:my-24 p-6 md:p-10 glassmorphic-card"
+            className="py-16 md:py-24"
             initial="offscreen"
             whileInView="onscreen"
             viewport={{ once: true, amount: 0.1 }}
-            variants={cardVariants}
+            variants={sectionVariants}
           >
             {section.component}
-          </MotionCard>
+          </motion.section>
         ))}
       </main>
 
-      <footer className="border-t py-6">
+      <footer className="border-t border-border/20 py-6">
         <div className="container text-center text-sm text-muted-foreground">
-          © {new Date().getFullYear()} VIJAY SHUKLA. All rights reserved. Built with Next.js and Tailwind CSS.
+          © {new Date().getFullYear()} VIJAY SHUKLA. All rights reserved.
         </div>
       </footer>
     </div>
