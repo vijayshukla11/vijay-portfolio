@@ -85,34 +85,39 @@ export const services = [
 
 export const projects = [
   {
+    id: "oos-tracker",
     title: "Stock Availability & OOS Tracker",
-    problem: "Lack of real-time visibility into out-of-stock items, leading to lost sales and poor customer experience.",
-    approach: "Developed an Excel-based dashboard using Power Query to pull data from the POS system. The dashboard tracked SKU availability across all outlets, highlighting top OOS items and their potential sales impact.",
-    outcome: "Reduced OOS instances by 15% and provided operations with an actionable daily report to prioritize stock replenishment.",
-    tags: ["Excel", "Power Query", "KPI", "Dashboard"],
+    description: "Developed an Excel dashboard using Power Query to provide real-time visibility into out-of-stock items, helping reduce OOS instances by 15% and prioritize stock replenishment.",
+    imageUrl: "project-4",
+    tags: ["Excel", "Power Query", "KPI", "Dashboard", "Inventory"],
+    liveUrl: "/dashboard",
   },
   {
+    id: "cancellation-analysis",
     title: "Order Funnel & Cancellation Analysis",
-    problem: "High order cancellation rates without a clear understanding of the root causes.",
-    approach: "Analyzed order data to map the customer funnel from order placement to delivery. Segmented cancellations by reason (e.g., customer request, rider issue, stock mismatch) and by outlet.",
-    outcome: "Identified 'stock mismatch' as the top cancellation reason in specific stores. Actions taken led to a 20% reduction in cancellations for those stores.",
-    tags: ["KPI", "Analysis", "Excel"],
+    description: "Analyzed order data to map the customer funnel and segmented cancellations by root cause. Identified 'stock mismatch' as a key issue, leading to a 20% reduction in cancellations for targeted stores.",
+    imageUrl: "project-1",
+    tags: ["Excel", "Analysis", "KPI", "Reporting"],
+    liveUrl: "/dashboard",
   },
   {
+    id: "sla-monitoring",
     title: "SLA Monitoring (Dispatch + Delivery)",
-    problem: "Inconsistent delivery times were impacting customer satisfaction, but the team lacked a tool to monitor SLA compliance effectively.",
-    approach: "Created a daily SLA monitoring report that tracked key timings: order placement, dispatch, and final delivery. Used conditional formatting to flag breaches.",
-    outcome: "Improved average delivery time by 10 minutes and increased SLA compliance to 98% by providing clear performance visibility to the ops team.",
-    tags: ["SLA", "KPI", "Reporting"],
+    description: "Created a daily SLA monitoring report to track order placement, dispatch, and delivery timings. Improved average delivery time by 10 minutes and increased SLA compliance to 98%.",
+    imageUrl: "project-3",
+    tags: ["SLA", "KPI", "Reporting", "Excel"],
+    liveUrl: "/dashboard",
   },
   {
+    id: "pricing-impact",
     title: "Pricing/Discount Impact Watch",
-    problem: "Marketing campaigns with heavy discounts were running without a clear view of their impact on gross margins.",
-    approach: "Built a model to compare sales, GMV, and margin percentage during promotional periods versus baseline. The report helped quantify the trade-off between growth and profitability.",
-    outcome: "Enabled data-driven decisions on discount strategy, leading to a 5% improvement in gross margin during campaigns without significantly hurting sales volume.",
-    tags: ["Excel", "Analytics", "Margin Protection"],
+    description: "Built a model to compare sales, GMV, and margin percentage during promotional periods. This enabled data-driven decisions on discount strategy, improving gross margin by 5%.",
+    imageUrl: "project-2",
+    tags: ["Excel", "Analytics", "Margin Protection", "Reporting"],
+    liveUrl: "/dashboard",
   },
 ];
+
 
 export const experiences = [
     {
@@ -131,7 +136,7 @@ export const experiences = [
       company: "Listing + Execution Support",
       period: "Previous Work / Additional Responsibility",
       achievements: [
-        "Managed product listing, catalog updates, and operational data for online channels.",
+        "Managed product listing, catalog updates, and operational data for online sales channels.",
         "Tracked and reported on performance issues like OOS, cancellations, and stock mismatch.",
         "Supported faster decision-making with structured data on product availability and demand.",
       ],
