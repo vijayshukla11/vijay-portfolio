@@ -1,4 +1,4 @@
-import { AreaChart, Award, BarChart, CheckCircle2, Clock, Code, Database, FileText, Gauge, LayoutDashboard, MessageSquare, PieChart, Presentation, Puzzle, ShoppingCart, SlidersHorizontal, Target, TrendingUp, Users } from "lucide-react";
+import { AreaChart, Award, BarChart, CheckCircle2, Clock, Code, Database, DatabaseZap, FileText, Gauge, LayoutDashboard, LifeBuoy, MessageSquare, PieChart, Presentation, Puzzle, Search, ShoppingCart, SlidersHorizontal, Target, TrendingUp, Users } from "lucide-react";
 
 export const kpiData = [
   { title: "Fill Rate", value: "92.5%", trend: "+1.2%", icon: Gauge },
@@ -235,5 +235,38 @@ export const strengths = [
         icon: TrendingUp,
         title: "Scalable Solutions",
         description: "Small business today, big business tomorrow. Solutions designed to grow with your business."
+    }
+];
+
+export const howIWorkSteps = [
+    {
+        icon: Search,
+        title: "Discovery & Requirement Gathering",
+        duration: "1-2 Days",
+        description: "First, I understand your business objectives and define the key questions we need to answer. We'll identify KPIs and locate the necessary data sources to build a solid foundation."
+    },
+    {
+        icon: DatabaseZap,
+        title: "Data Extraction & Preparation",
+        duration: "Project Dependent",
+        description: "I extract data from various sources, then clean, transform, and model it. This ensures the data is accurate, consistent, and ready for analysis."
+    },
+    {
+        icon: LayoutDashboard,
+        title: "Dashboard Development & Analysis",
+        duration: "Project Dependent",
+        description: "This is where the insights come to life. I build interactive dashboards and perform deep-dive analysis to uncover trends, patterns, and actionable insights hidden in your data."
+    },
+    {
+        icon: Presentation,
+        title: "Insight Delivery & Review",
+        duration: "1-2 Days",
+        description: "I present the findings in a clear and compelling narrative. We'll review the dashboards together, ensuring the insights are understandable and directly address your business goals."
+    },
+    {
+        icon: LifeBuoy,
+        title: "Deployment & Support",
+        duration: "Ongoing",
+        description: "Once the dashboards are finalized, I deploy them for your team's use. I provide ongoing support to ensure the solution remains valuable and adapts to your future needs."
     }
 ];
