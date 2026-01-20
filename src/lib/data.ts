@@ -1,4 +1,4 @@
-import { AreaChart, Award, BarChart, Clock, Code, FileText, Gauge, LayoutDashboard, MessageSquare, PieChart, ShoppingCart, SlidersHorizontal, Target, TrendingUp } from "lucide-react";
+import { AreaChart, Award, BarChart, CheckCircle2, Clock, Code, Database, FileText, Gauge, LayoutDashboard, MessageSquare, PieChart, Presentation, Puzzle, ShoppingCart, SlidersHorizontal, Target, TrendingUp, Users } from "lucide-react";
 
 export const kpiData = [
   { title: "Fill Rate", value: "92.5%", trend: "+1.2%", icon: Gauge },
@@ -8,30 +8,80 @@ export const kpiData = [
   { title: "OOS SKUs", value: "124", trend: "-15", icon: ShoppingCart },
 ];
 
-export const skills = {
-  "Data Analytics": [
-    { name: "Advanced Excel", level: 95 },
-    { name: "Power Query", level: 90 },
-    { name: "Pivot Tables & Charts", level: 95 },
-    { name: "KPI Reporting & MIS", level: 92 },
-  ],
-  "BI Tools": [
-    { name: "Power BI (DAX - basics)", level: 75 },
-    { name: "Dashboard Storytelling", level: 85 },
-  ],
-  "SQL": [{ name: "Basics (Joins, Aggregation)", level: 70 }],
-  "Quick Commerce KPIs": [
-    { name: "Fill Rate / OOS%", level: 95 },
-    { name: "Cancellation Rate Analysis", level: 90 },
-    { name: "SLA% (Dispatch to Delivery)", level: 88 },
-  ],
-  "Soft Skills": [
-    { name: "Stakeholder Management", level: 90 },
-    { name: "Problem Solving", level: 95 },
-  ],
-};
-
-export const techStack = ["Next.js", "TypeScript", "Tailwind CSS", "Recharts", "Framer Motion"];
+export const services = [
+    {
+        icon: LayoutDashboard,
+        title: "Dashboards & Reporting",
+        tag: "BI & Visualization",
+        description: "Building daily/weekly MIS, KPI trackers, and executive summaries to provide a clear view of business performance."
+    },
+    {
+        icon: BarChart,
+        title: "Inventory & Ops Analytics",
+        tag: "Analytics",
+        description: "Analyzing stock variance, wastage, and returns to control shrinkage and improve stock accuracy."
+    },
+    {
+        icon: Gauge,
+        title: "Quick Commerce KPI Analysis",
+        tag: "Q-Commerce",
+        description: "Deep-dive analysis into Fill Rate, Cancellation Rate, and SLA performance to drive operational excellence."
+    },
+    {
+        icon: FileText,
+        title: "Advanced Excel & Data Modeling",
+        tag: "Data Tools",
+        description: "Using Power Query, Pivot Tables, and advanced formulas to clean, transform, and model complex datasets."
+    },
+    {
+        icon: Database,
+        title: "SQL for Data Extraction",
+        tag: "Data",
+        description: "Writing basic SQL queries with joins and aggregations to extract and manipulate data from databases."
+    },
+    {
+        icon: ShoppingCart,
+        title: "E-commerce Operations",
+        tag: "E-commerce",
+        description: "Managing product listings, catalog data, and tracking key metrics like OOS and order execution for online channels."
+    },
+    {
+        icon: Presentation,
+        title: "Dashboard Storytelling",
+        tag: "Communication",
+        description: "Translating complex data findings into a clear and compelling narrative for stakeholders."
+    },
+    {
+        icon: Users,
+        title: "Stakeholder Management",
+        tag: "Soft Skills",
+        description: "Communicating insights and collaborating with operations teams to drive data-backed improvements."
+    },
+    {
+        icon: Target,
+        title: "Problem Solving",
+        tag: "Strategy",
+        description: "Identifying root causes for business challenges like stock variance and order cancellations through data analysis."
+    },
+    {
+        icon: CheckCircle2,
+        title: "Data Cleaning & Validation",
+        tag: "Data Quality",
+        description: "Ensuring data accuracy and consistency through validation rules and cleaning processes in Excel and Power Query."
+    },
+    {
+        icon: TrendingUp,
+        title: "Performance Tracking",
+        tag: "Analytics",
+        description: "Setting up and monitoring key performance indicators to track outlet performance and identify areas for improvement."
+    },
+    {
+        icon: Puzzle,
+        title: "End-to-End Analysis",
+        tag: "Process",
+        description: "From data extraction and cleaning to building the final dashboard and presenting insights to leadership."
+    },
+];
 
 export const projects = [
   {
