@@ -21,15 +21,19 @@ const AboutSection = () => {
                 )}
             </div>
             <div className="md:col-span-2 text-center md:text-left">
-                <h2 className="text-3xl font-bold mb-4">About Me</h2>
+                <h2 className="text-3xl font-bold mb-4">Business Operations, Analytics & Technology</h2>
                 <p className="max-w-3xl mx-auto md:mx-0 text-muted-foreground text-lg">
-                   I am a Business Analyst and Operations Professional with hands-on experience across supply chain management, e-commerce operations, food businesses, and analytics-driven decision making.
+                  About Me
 
-My journey started by managing real-world business operations, from farm production planning and inventory management to customer acquisition and sales analytics. Working with businesses such as JMS One Root, Clinza, and JustMySalad has given me practical exposure to solving operational challenges using data, automation, and technology.
+I am a Business Analyst and Operations Professional with hands-on experience in data-driven business management, technology operations, inventory control, and process optimization.
 
-Today, my focus is on building AI-powered business systems, creating insightful dashboards, automating workflows, and helping organizations make faster, smarter decisions through analytics and process optimization.
+Currently, I work closely with Sachde Food & Beverages, managing operational data and business performance across multiple brands including Love N Latte, Nymi Coffee, and JustMySalad. My role involves transforming raw business data into actionable insights that support strategic decision-making and operational efficiency.
 
-I believe the future belongs to professionals who can combine Business, Data, AI, and Automation into scalable systems that drive measurable growth.</p>
+I oversee sales analytics, inventory management, purchase order (PO) management, business reporting, and performance tracking across multiple outlets. In addition to analytics, I provide technology and operational support for outlet teams, helping streamline workflows and improve day-to-day business operations.
+
+My responsibilities also include managing and optimizing the websites and digital platforms of Love N Latte, Nymi Coffee, and JustMySalad, ensuring smooth customer experiences and efficient backend operations. I work extensively with business data, dashboards, reporting systems, and operational processes to identify opportunities for growth and efficiency.
+
+I am particularly interested in solving complex business and technology challenges through analytics, automation, and AI-powered solutions. My goal is to build scalable systems that combine Business, Data, Operations, and Technology to drive measurable business growth and improve decision-making.</p>
 
             </div>
         </div>
