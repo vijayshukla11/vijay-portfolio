@@ -29,7 +29,7 @@ My journey started by managing real-world business operations, from farm product
 
 Today, my focus is on building AI-powered business systems, creating insightful dashboards, automating workflows, and helping organizations make faster, smarter decisions through analytics and process optimization.
 
-I believe the future belongs to professionals who can combine Business, Data, AI, and Automation into scalable systems that drive measurable growth.
+I believe the future belongs to professionals who can combine Business, Data, AI, and Automation into scalable systems that drive measurable growth.</p>
 
             </div>
         </div>
