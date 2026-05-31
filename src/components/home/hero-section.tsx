@@ -20,9 +20,10 @@ const HeroSection = () => {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8 }}
                     >
-                        Turn Data Into 
+                        Building Data-Driven Business Systems
+ 
                         <br />
-                        <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary to-purple-400">Actionable Insights</span>
+                        <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary to-purple-400">for Operations, Supply Chain & AI Automation</span>
                     </motion.h1>
 
                     <motion.p 
@@ -31,7 +32,8 @@ const HeroSection = () => {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8, delay: 0.1 }}
                     >
-                        I convert complex operations & supply chain data into clear, actionable dashboards that drive business growth and efficiency.
+                       I build data-driven systems for operations, supply chain, e-commerce and AI automation. From managing farm production and inventory
+                        planning to scaling online businesses, I transform complex workflows into measurable business growth.
                     </motion.p>
                     <motion.p
                         className="max-w-xl text-primary/80 mb-8 font-semibold"
@@ -39,7 +41,7 @@ const HeroSection = () => {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8, delay: 0.2 }}
                     >
-                        Specializing in Quick Commerce & Operations Analytics.
+                        Specializing in Business Analytics, Supply Chain Optimization & AI-Powered Automation.
                     </motion.p>
 
                     <motion.div 
@@ -68,7 +70,7 @@ const HeroSection = () => {
                       transition={{ duration: 0.5, delay: 0.5 }}
                     >
                       <CheckCircle className="h-4 w-4" />
-                      Available for new projects
+                      Operations • Analytics • Automation
                     </motion.div>
                 </div>
 
