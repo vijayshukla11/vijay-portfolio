@@ -2,20 +2,20 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 
 const stats = [
-    { value: "15+", label: "Projects Delivered" },
-    { value: "24-48h", label: "Response Time" },
-    { value: "100%", label: "Client Satisfaction" },
-    { value: "Impact", label: "Data-Driven Decisions" },
+    { value: "5+", label: "Brand Managed" },
+    { value: "20+", label: "Outlets And Operations Supported" },
+    { value: "Inventory", label: "POs • Stock Control • Procurement" },
+    { value: "Analytics", label: "Sales • Operations • Business Intelligence" },
 ];
 
 const WhyWorkWithMeSection = () => {
     return (
         <div className="text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{color: 'hsl(var(--primary))'}}>
-                Why Work With Me?
+               Business Impact & Operational Excellence
             </h2>
             <p className="max-w-3xl mx-auto text-muted-foreground mb-12 text-lg">
-                Professional service, clear communication, and guaranteed results. Your success is my priority.
+               Driving business growth through analytics, operations management, technology solutions, and data-driven decision making.
             </p>
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-16">
